@@ -1,0 +1,9 @@
+flag	content
+$MAINCHAR_NAME	Player Name
+$MAINCHAR_DESC	This is you!
+$GOLDEN_DRAGON_NAME	Golden Dragon
+$GOLDEN_DRAGON_DESC	Despite it being a mythical creature, the damage it deals feels fairly real.<N>Occasionally gets gold coins!
+$BUNNY_ROBOT_NAME	Mechrabbit
+$BUNNY_ROBOT_DESC	Not afraid of foxes, unless they are mechanical.
+$PLANT_NAME	Unpotted Plant
+$PLANT_DESC	Seems like someone has been forgetting to water it. Possibly for multiple decades. But hey, at least it makes a really nice enemy!

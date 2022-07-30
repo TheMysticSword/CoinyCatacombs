@@ -1,0 +1,46 @@
+flag	content
+$COIN_TOSS	Toss a Coin
+$COIN_TOSS_BUST	Lost it all!
+$COIN_TOSS_JACKPOT	Jackpot!
+$REUSEABLE	(reuseable)
+$USES_REMAINING_GENERIC	(<USES> uses)
+$USES_REMAINING_0	(no uses)
+$USES_REMAINING_1	(one use)
+$USES_REMAINING_2	(two uses)
+$USES_REMAINING_3	(three uses)
+$USES_REMAINING_4	(four uses)
+$USES_REMAINING_5	(five uses)
+$USES_REMAINING_6	(six uses)
+$USES_REMAINING_7	(seven uses)
+$USES_REMAINING_8	(eight uses)
+$USES_REMAINING_9	(nine uses)
+$USES_REMAINING_10	(10 uses)
+$USES_REMAINING_11	(11 uses)
+$USES_REMAINING_12	(12 uses)
+$LIMIT_BREAK_REMAINING	(ready in <REMAINING_HP> HP)
+$LIMIT_BREAK_READY	(ready for use!)
+$LIMIT_BREAK_REQUIREMENT_PREVIEW	(take <LIMIT_BREAK_REQUIREMENT> damage to use)
+$ITEM_COOLDOWN_GENERIC	Ready in <TURNS> turns
+$ITEM_COOLDOWN_1	Ready next turn
+$ITEM_COOLDOWN_2	Ready in two turns
+$ITEM_COOLDOWN_3	Ready in three turns
+$ITEM_COOLDOWN_4	Ready in four turns
+$ITEM_COOLDOWN_5	Ready in five turns
+$ITEM_COOLDOWN_6	Ready in six turns
+$ITEM_COOLDOWN_7	Ready in seven turns
+$ITEM_COOLDOWN_8	Ready in eight turns
+$ITEM_COOLDOWN_9	Ready in nine turns
+$ITEM_COOLDOWN_10	Ready in 10 turns
+$ITEM_COOLDOWN_11	Ready in 11 turns
+$ITEM_COOLDOWN_12	Ready in 12 turns
+$END_TURN	End Turn
+$GENERIC_BUTTON_CONTINUE	Continue
+$GENERIC_BUTTON_TAKE	Take
+$GENERIC_BUTTON_IGNORE	Ignore
+$GENERIC_BUTTON_FIGHT	Fight!
+$GENERIC_BUTTON_Play	Play!
+$GENERIC_BUTTON_BACK_TO_MENU	Back to menu
+$FIGHTER_WIN	<NAME> wins!
+$FIGHTER_LOSS	<NAME> has lost it all...
+$POST_GAME_INFO	Souls sacrificed: <LOSSES>
+$GAME_INFO	A Dicey Dungeons clone by TheMysticSword, with music tracks by TeffyD, TeraVex and Agent_Jo, made in 7 days for HaxeJam 2022

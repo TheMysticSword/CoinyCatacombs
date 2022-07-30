@@ -1,0 +1,4 @@
+id	script	maxUses	limitBreak	hideReuseable
+COIN_TOSS	/*hardcoded*/	-1	YES	YES
+REFLIP_REMAINING_COINS	var i = 0; for (coin in self.coinInstances) if (coin.alive) {coin.reflip(i * 0.12); i++;}	1	NO	NO
+CONVERT_TO_GOLD	GlobalScripts.flashCamera("0x2ffff23f", 0.9); var i = 0; for (coin in self.coinInstances) if (coin.alive) {coin.makeGold(i * 0.12); i++;}	1	YES	NO

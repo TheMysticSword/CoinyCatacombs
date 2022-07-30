@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<!--Add list of files you're including in your localization here
+	    The engine will NOT load any files that are not listed.	
+	-->
+
+    <file id="data" value="strings.tsv"/>
+	<file id="fighters" value="fighters.tsv"/>
+	<file id="items" value="items.tsv"/>
+	<file id="skills" value="skills.tsv"/>
+	<file id="statuseffects" value="statuseffects.tsv"/>
+	<file id="overworld" value="overworld.tsv"/>
+	
+	<!--Add locale entries here.
+	
+	The locale id is the ISO 639-1 country language code with 2-letter country suffix:
+	http://en.wikipedia.org/wiki/ISO_639-1
+	
+	1) Add the locale entry
+	2) Add a corresponding folder with localization content matching the id
+	3) Add a corresponding flag image in the _flags folder matching the id
+	4) Add any labels you want to display the language text in the menu
+	
+	-->
+	
+	<!--American English-->
+	<locale id="en-US" is_default="true" sort="0">	
+		<contributors value="TheMysticSword"/>
+		<ui language="Language" region="Region" accept="Okay" />
+		<label id="en-US,en-GB,en-CA" language="English" region="United States"/>
+	</locale>
+</data>

@@ -1,0 +1,9 @@
+flag	content
+$COIN_TOSS_NAME	Toss a Coin
+$COIN_TOSS_NAME_BUST	Lost it all!
+$COIN_TOSS_NAME_JACKPOT	Jackpot!
+$COIN_TOSS_DESC	(should not appear)
+$REFLIP_REMAINING_COINS_NAME	Reflip Coins
+$REFLIP_REMAINING_COINS_DESC	(should not appear)
+$CONVERT_TO_GOLD_NAME	Alchemise
+$CONVERT_TO_GOLD_DESC	Make all coins gold

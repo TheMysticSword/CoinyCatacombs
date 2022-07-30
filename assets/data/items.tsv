@@ -1,0 +1,25 @@
+id	script	slots	maxUses	colour	script_beforeActivated	script_beforeStartTurn	script_onStartTurn	script_onEndTurn
+SILVER_SMACK	CombatScripts.attack(self, target, 4);	Heads	1	SILVER				
+LIFE_INSURANCE	CombatScripts.attack(self, self, -1);	Matching,Matching	-1	GREEN				
+CROWDFUNDER	CombatScripts.attack(self, target, 2);	Gold	-1	GOLD				
+AVARICE	CombatScripts.giveAnyCoins(self, 2);	Heads,Heads	1	GREEN				
+BANG_FOR_YOUR_BUCK	CombatScripts.attack(self, target, 9);	Matching,Matching,Matching	1	RED				
+PAYOFF	CombatScripts.attack(self, target, 8); target.addStatus(self, "LESS_COINS");	Gold	1	PURPLE				
+PICKPOCKET	CombatScripts.giveAnyCoin(self); target.addStatus(self, "LESS_COINS");	Matching,Matching	1	GREEN				
+SHOPHOP	self.addStatus(self, "DODGE");	Heads,Heads,Heads	1	YELLOW				
+RAILCOIN	CombatScripts.attack(self, target, 3); var newSlots = []; for (slot in thisItem.slots) {if (slot == CoinSlot.Heads) newSlots.push(CoinSlot.Tails); else if (slot == CoinSlot.Tails) newSlots.push(CoinSlot.Heads); else newSlots.push(slot);} thisItem.changeSlots(newSlots);	Heads	2	BLUE				
+GREEDY_CLAWS	var dmg = 2; if (goldUsed) dmg *= 2; CombatScripts.attack(self, target, dmg);	Tails	1	YELLOW				
+FLIGHT	self.addStatus(self, "EXTRATURN");	Gold,Gold	1	YELLOW	thisItem.cooldown += 1;			
+PAYPHONE	CombatScripts.attack(self, target, 2); target.addStatus(self, "SHOCK");	Heads,Tails	2	BLUE				
+DIRTY_MONEY	CombatScripts.attack(self, target, 1); target.addStatus(self, "DECAY");	GoldTails	3	GREEN				
+MINT	target.addStatus(self, "BURN", 2); CombatScripts.giveAnyCoin(self);	Tails,Tails	1	RED				
+FLASH_SALE	target.addStatus(self, "SHOCK");	GoldHeads,GoldHeads	-1	BLUE				
+HOT_SELLER	CombatScripts.attack(self, target, 7); target.addStatus(self, "BURN", 3);	Gold,Gold,Gold	1	RED				
+CRIPPLING_DEBT	CombatScripts.attack(self, target, 4); target.addStatus(self, "DECAY");	Heads,Heads	2	RED				
+MIDAS_TOUCH	CombatScripts.giveAnyCoin(self, true);	Heads,Heads	2	GOLD				
+TRICKLE_DOWN	CombatScripts.giveCoins(self, [CoinType.Heads, CoinType.Tails]);	Gold	3	GOLD				
+RESTOCK	var cdItems = []; for (item in self.items) if (item.cooldown > 0 && !item.canActivate) cdItems.push(item); if (cdItems.length > 0) {var cdItem = GlobalScripts.random(cdItems); cdItem.cooldown--; cdItem.runForPanel(x -> x.refresh()); if (cdItem.cooldown <= 0) {cdItem.canActivate = true; cdItem.runForPanel(x -> x.rollCooldownPanel(false));}}	Heads	1	GREEN				
+GLUED_PENNY	target.addStatus(self, "DECAY");	Tails	1	GREEN				
+DEVILS_DEAL	CombatScripts.attack(self, target, 6); target.addStatus(self, "BURN");	Heads,Tails,Heads	1	RED				
+SAVINGS	CombatScripts.giveAnyCoin(self, true);	Normal	1	GREEN	thisItem.cooldown += 5;			
+THEFT_AND_SHRUBBERY	var prevhp = target.hp; CombatScripts.attack(self, target, 2); CombatScripts.attack(self, self, target.hp - prevhp);	Tails	1	GREEN				

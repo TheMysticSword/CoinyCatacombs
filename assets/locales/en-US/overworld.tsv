@@ -1,0 +1,37 @@
+flag	content
+$INTRO_1	It's a hot summer day outside. Too hot even. You have no clue as to why you even went out in such a skin-scorching weather.
+$INTRO_2	You come across a building you have never seen before. The colourful sign above it says: "Coiny Catacombs - now open!".
+$INTRO_3	You don't recall seeing any news about this building, nor do you recall construction work taking place here. And nobody around you seems to be bothered by it...<N><N>Where did this building come from?
+$INTRO_4	Maybe you're just having a sunstroke? Who knows.<N><N>The only thing you know for sure is that going inside will save you from heat.
+$INTRO_5	The door slams shut behind you. Suddenly, everything goes dark. You can't see anything...
+$INTRO_6	You hear a voice come out of some sort of old speaker:<N><N>"Welcome, visitor! Today, you are astronomically lucky, as you have been chosen to take part in a live-action game OUT of this world..."
+$INTRO_7	A game of luck...
+$INTRO_8	... a game of risking everything...
+$INTRO_9	... a game of winning BIG!...
+$INTRO_10	... or losing it all...
+$INTRO_11	... a game known as Coiny Catacombs!
+$INTRO_12	What is your name?
+$INTRO_13	Oh, <NAME>! Fantastic!<N><N>And what is the one thing you want the most in your life?
+$INTRO_14	We have some good and bad news for you then!<N><N>Here's the deal: if you win the game, you will receive your heart's desire! Yes, you're right, you'll get your very own <WISH>!<N><N>If you lose, however...
+$INTRO_15	Well, let's just say, by entering this place you have agreed to let us take your soul away and turn it into a coin.<N><N>Yes, it's unfair, but that's what you've got to deal with when playing for <WISH>!
+$INTRO_16	The game is on! Begin!
+$INTRO_ABRIDGED_1	Welcome to Coiny Catacombs!
+$INTRO_ABRIDGED_2	What is your name?
+$INTRO_ABRIDGED_3	And what is the one thing you want the most in your life?
+$INTRO_ABRIDGED_4_1	Got it! Well, let's see if you win the <WISH>, or end up as yet another dime in our pile of cash.
+$INTRO_ABRIDGED_4_2	Alright! You'll get your <WISH> if you do better than our previous contestant!
+$INTRO_ABRIDGED_4_3	<WISH>? Perfect! Try not to lose it all, like our last visitor.
+$INTRO_ABRIDGED_4_4	<WISH>, huh? Well, I certainly won't shame you for that if you win! And I'll certainly shame you if you lose!
+$TRAPPED_CHEST	You have found a treasure chest. But... it's surrounded with traps!<N><N>You can flip a coin to try and open the chest, or you can ignore it and move on.<N><N>Heads: open the chest safely.<N>Tails: take <DAMAGE> damage!
+$FOUND_ITEM	You have found: <ITEM>!
+$FOUND_ITEM_INVENTORYFULL	Your inventory is full. You can click on one of your items to replace it with the new one, or you can ignore it.
+$SHRINE_CHANCE	You have found a golden shrine.<N><N>You can flip a coin to pray to the shrine, or you can ignore it and move on.<N><N>Heads: receive an item.<N>Tails: start with 1 less coin in the next battle!
+$SHRINE_BLOOD	You have found a maroon shrine.<N><N>You can flip a coin to pray to the shrine, or you can ignore it and move on.<N><N>Heads: start with 1 more coin in the next battle.<N>Tails: take <DAMAGE> damage!
+$HEALING_FOUNTAIN	You have found rejuvenating springs.<N><N>You can flip a coin to bathe in the waters, or you can ignore it and move on.<N><N>Heads: recover <HEAL> health.<N>Tails: gain <MAXHP> max health and move on.
+$DICE	You have found a dice. Unfortunately, these have no use in here.<N><N>Besides, a game of this type with dice instead of coins would never work.
+$MAGIC_POTION	You have found a bottle of... something? It's glowing...<N><N>You can flip a coin to drink from the bottle, or you can ignore it and move on.<N><N>Heads: start the next fight with +1 <BUFF>.<N>Tails: start the next fight with +1 <DEBUFF>!
+$ENEMY_ENCOUNTER_1	You have encountered <ENEMY>!
+$ENEMY_ENCOUNTER_2	<ENEMY> approaches you!
+$ENEMY_ENCOUNTER_3	<ENEMY> appears!
+$ENEMY_ENCOUNTER_4	<ENEMY> attacks!
+$ENEMY_ENCOUNTER_5	<ENEMY> blocks the way!

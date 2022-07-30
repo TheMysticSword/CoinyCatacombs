@@ -1,0 +1,5 @@
+id	combatImage	combatImageOffset	combatAnimationType	health	coins	items	script_onStartTurn	script_onEndTurn	script_onCoinsTossed
+MAINCHAR				24	3	SILVER_SMACK,LIFE_INSURANCE			
+GOLDEN_DRAGON	golden_dragon.png	0,0	float	16	3	GREEDY_CLAWS,GREEDY_CLAWS,FLIGHT			for (coin in self.coinInstances) if (coin.alive && GlobalScripts.chance(33)) coin.gold = true;
+BUNNY_ROBOT	enemy_bunny_robot_small.png	0|0	idle	12	3	SHOPHOP,RAILCOIN			
+PLANT	enemy_plant_small.png	0|60	idle	14	3	THEFT_AND_SHRUBBERY,THEFT_AND_SHRUBBERY,THEFT_AND_SHRUBBERY			

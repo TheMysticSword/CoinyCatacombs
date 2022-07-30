@@ -1,0 +1,49 @@
+flag	content
+$SILVER_SMACK_NAME	Silver Smack
+$SILVER_SMACK_DESC	Do 4 damage
+$CROWDFUNDER_NAME	Crowdfunder
+$CROWDFUNDER_DESC	Do 2 damage
+$BANG_FOR_YOUR_BUCK_NAME	Bang for Your Buck
+$BANG_FOR_YOUR_BUCK_DESC	Do 9 damage
+$AVARICE_NAME	Avarice
+$AVARICE_DESC	Gain 2 extra coins
+$LIFE_INSURANCE_NAME	Life Insurance
+$LIFE_INSURANCE_DESC	Recover 1 health
+$PAYOFF_NAME	Payoff
+$PAYOFF_DESC	Do 8 damage, -1 enemy<N>coin for one turn
+$PICKPOCKET_NAME	Pickpocket
+$PICKPOCKET_DESC	Borrow enemy coin
+$SHOPHOP_NAME	Shop Hop
+$SHOPHOP_DESC	Dodge an attack
+$RAILCOIN_NAME	Railcoin
+$RAILCOIN_DESC	Do 3 damage<N>Flip slot
+$GREEDY_CLAWS_NAME	Greedy Claws
+$GREEDY_CLAWS_DESC	Do 2 damage<N>Double on gold
+$FLIGHT_NAME	Flight
+$FLIGHT_DESC	Take another turn<N>Disable for next turn
+$PAYPHONE_NAME	Payphone
+$PAYPHONE_DESC	Do 2 damage<N>Shock enemy
+$DIRTY_MONEY_NAME	Dirty Money
+$DIRTY_MONEY_DESC	Do 1 damage<N>Inflict decay
+$MINT_NAME	Mint
+$MINT_DESC	Burn for 2 turns<N>Get a new coin
+$FLASH_SALE_NAME	Flash Sale
+$FLASH_SALE_DESC	Shock enemy
+$HOT_SELLER_NAME	Hot-Seller
+$HOT_SELLER_DESC	Do 7 damage<N>Burn for 3 turns
+$CRIPPLING_DEBT_NAME	Crippling Debt
+$CRIPPLING_DEBT_DESC	Do 4 damage<N>Inflict decay
+$MIDAS_TOUCH_NAME	Midas Touch
+$MIDAS_TOUCH_DESC	Get a golden coin
+$TRICKLE_DOWN_NAME	Trickle Down
+$TRICKLE_DOWN_DESC	Get a heads<N>and a tails
+$RESTOCK_NAME	Restock
+$RESTOCK_DESC	-1 cooldown to<N>random item
+$GLUED_PENNY_NAME	Glued Penny
+$GLUED_PENNY_DESC	Inflict decay
+$DEVILS_DEAL_NAME	Devil's Deal
+$DEVILS_DEAL_DESC	Do 6 damage<N>Burn enemy
+$SAVINGS_NAME	Savings
+$SAVINGS_DESC	Get a gold coin<N>Cooldown: 6 turns
+$THEFT_AND_SHRUBBERY_NAME	Theft and Shrubbery
+$THEFT_AND_SHRUBBERY_DESC	Drain 2 health

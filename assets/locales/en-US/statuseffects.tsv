@@ -1,0 +1,22 @@
+flag	content
+$STATUS_EFFECT_NAME_FORMAT	<NAME><SPACE_IF_STACKABLE><VALUE>
+$EXTRATURN_NAME	Extra Turn
+$EXTRATURN_DESC	Take an extra turn.
+$DODGE_NAME	Dodge
+$DODGE_DESC	Ignore the next enemy attack.
+$MORE_COINS_NAME	Profit
+$MORE_COINS_DESC	+<VALUE> coins this turn.
+$LESS_COINS_NAME	Loss
+$LESS_COINS_DESC	-<VALUE> coins this turn.
+$BURN_NAME	Burn
+$BURN_DESC	Each turn, take 1 damage and reduce this by 1.
+$SHOCK_NAME	Shock
+$SHOCK_DESC	Take <VALUE> more damage from each attack this turn.
+$DECAY_NAME	Decay
+$DECAY_DESC	The next used item has +1 turn cooldown.
+$COMBUSTION_NAME	Combustion
+$COMBUSTION_DESC	Burn + Decay fusion effect:<N>Instantly deals 5 damage and puts a random item on cooldown.
+$MANIPULATION_NAME	Manipulation
+$MANIPULATION_DESC	Burn + Shock fusion effect:<N>Your next attack will hit you instead.
+$MIASMA_NAME	Miasma
+$MIASMA_DESC	Shock + Decay fusion effect:<N>Each turn, take 1 damage.
